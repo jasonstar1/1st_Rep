@@ -39,10 +39,100 @@ body{
 	float: right;
 }
 
-li{
+#page-nav-right li{
 	display: inline-block;
+}
+
+#clearfix{
+	clear:both;
 }
 
 #header{
 	height: 130px;
+	
 }
+#headerwidth{
+	margin: 0 auto;
+	width: 1230px;
+}
+
+#tmall{
+	display: inline-block;
+	
+}
+
+img{
+	width: 200px;
+	height: 130px;
+}
+
+#block{
+	width: 200px;
+	height: 70px;
+	padding: 2px;
+	float:right;
+	
+}
+
+#search_form{
+	width: 626px;
+	margin-top: 38px;
+
+	float:right;
+}
+
+form{
+	border: #c40000 solid;
+	clear: both;
+	
+	
+}
+
+#inputmiddle{
+	position: relative;
+	vertical-align:middle;
+}
+#text{
+	width: 490px;
+	height: 36px;
+	border: none;
+	padding: 5px 3px 5px 5px;
+	font-size: 16px/22px arial;
+	
+}
+
+#submit{
+	width: 130px;
+	height: 36px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	border: 0px #c40000 solid;
+	
+	background-color: #c40000;
+	float: right;
+}
+
+.underform{
+	height: 18px;
+	font-size: 14px;
+	padding: 4px 0 0;
+	list-style: none;
+	overflow: hidden;
+
+}
+.underform li{
+	
+	display: inline;
+	border-left: 1px solid #ccc;
+	padding: 0 12px;
+
+}
+
+.underform li a{
+	text-decoration: none;
+	color: #999;
+
+}
+
+
