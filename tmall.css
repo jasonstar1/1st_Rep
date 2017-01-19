@@ -1,0 +1,48 @@
+body{
+	margin: 0 auto;
+	background-color: #f5f5f5;
+
+}
+
+#mallPage{
+	width: auto;
+	background-color: transparent;
+	margin: 0px;
+	padding: 0px;
+}
+
+#site-nav{
+	height: 32px;
+	background-color: #f2f2f2;
+	font-size: 12px;
+	font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif
+	bolder-bottom:1px solid #e5e5e5;
+}
+
+#sn-bd{
+	margin: 0 auto;
+	width: 1230px;
+}
+
+#sn-container{
+	display: block;
+	clear: both;
+
+}
+
+#page-nva-left{
+	float:left ;
+	display: inline-block;
+
+}
+#page-nav-right{
+	float: right;
+}
+
+li{
+	display: inline-block;
+}
+
+#header{
+	height: 130px;
+}
