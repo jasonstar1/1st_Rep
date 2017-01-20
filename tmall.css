@@ -86,6 +86,7 @@ img{
 	margin-top: 38px;
 	display: inline-block;
 	float:right;
+	overflow: hidden;
 }
 
 form{
@@ -125,7 +126,8 @@ form{
 	font-size: 14px;
 	padding: 4px 0 0;
 	list-style: none;
-	overflow: hidden;
+	
+	margin-left: -13px;
 
 }
 .underform li{
@@ -142,4 +144,41 @@ form{
 
 }
 
+#content{
+	font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif
+	position:relative;
+	z-index: 10000;
+	background: #fff;
+	color: #999;
+	font-size: 12px;
+}
 
+.main-nav{
+	white-space: nowrap;
+	position: relative;
+	height: 36px;
+	/*background-color: #fff;*/
+	width: 100%;
+
+}
+
+.inner-con0{
+	background-color: #DD2727;
+	line-height: 36px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+
+}
+
+
+.inner-con1{
+	width: 1230px;
+	margin: 0 auto;
+	/*padding-right: 30px;*/
+}
+
+.inner-con2{
+	margin-left: 215px;
+	width: 85%
+}
